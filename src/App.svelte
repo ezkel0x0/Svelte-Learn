@@ -46,7 +46,7 @@
 
 <Modal isPromo={true} {showModal} on:click={toggleModel}>
 	<h3 slot="title">Add Person</h3>
-	<!-- <AddPersonForm {people} {additem}/> -->
+	<!-- <AddPersonForm {people} {additem}/> ,-->
 	 <AddPersonCustomEvent on:addperson={addperson}/>
 </Modal>
 
